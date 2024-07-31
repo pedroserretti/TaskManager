@@ -1,5 +1,4 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Data {
     public class SqlContext : DbContext {

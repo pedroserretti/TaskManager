@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using TaskManager.Domain.Core.Interfaces.IRepositories;
 
 namespace TaskManager.Infrastructure.Repositories {
-     public class EntityRepositoryImpl<TEntity> : IEntityRepository<TEntity> where TEntity : class {
+    public class EntityRepositoryImpl<TEntity> : IEntityRepository<TEntity> where TEntity : class {
 
         private readonly SqlContext sqlContext;
 
