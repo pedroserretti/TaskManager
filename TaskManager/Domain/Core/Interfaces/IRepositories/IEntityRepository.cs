@@ -4,6 +4,6 @@
         void AddTask(TEntity entity);
         void UpdateTask(TEntity entity);
         void DeleteTask(TEntity entity);
-        void GetTask(TEntity entity);
+        TEntity GetTask(int id);
     }
 }
